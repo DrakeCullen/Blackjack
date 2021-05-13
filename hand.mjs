@@ -28,4 +28,6 @@ export class Hand {
     }
 
     clear() { this._cards.splice(0, this._cards.length); }
+
+    get length() { return this._cards.length; }
 }

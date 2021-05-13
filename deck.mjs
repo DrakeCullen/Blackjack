@@ -39,5 +39,6 @@ export class Deck {
         this.createDeck();
     }
 
+    get length() { return this._deck.length; }
 }
 
